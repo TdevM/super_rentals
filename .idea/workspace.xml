@@ -4,8 +4,7 @@
     <list default="true" id="13b20701-3f76-4874-9c51-3fd8623fc03c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/rentals.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/rentals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/rentals.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/rentals.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mirage/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/mirage/config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,16 +18,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/rentals/index.hbs">
+        <entry file="file://$PROJECT_DIR$/app/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="325">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/routes/rentals/index.js">
+        <entry file="file://$PROJECT_DIR$/app/routes/rentals/show.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
               <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
@@ -36,20 +38,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/rentals.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/templates/rentals/show.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+            <state relative-caret-position="600">
+              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/rental-property-type.js">
+        <entry file="file://$PROJECT_DIR$/mirage/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="399">
+              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -57,17 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/components/rental-listing.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/routes/rentals.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="650">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -76,16 +69,16 @@
         <entry file="file://$PROJECT_DIR$/app/components/rental-listing.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/location-map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="350">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -94,21 +87,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/rentals/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/config/environment.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/rentals.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/config/optional-features.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/targets.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -130,16 +120,18 @@
         <option value="$PROJECT_DIR$/app/templates/components/list-filter.hbs" />
         <option value="$PROJECT_DIR$/app/controllers/rentals.js" />
         <option value="$PROJECT_DIR$/app/components/list-filter.js" />
-        <option value="$PROJECT_DIR$/mirage/config.js" />
         <option value="$PROJECT_DIR$/app/services/map-element.js" />
         <option value="$PROJECT_DIR$/app/templates/components/rental-listing.hbs" />
         <option value="$PROJECT_DIR$/app/components/location-map.js" />
         <option value="$PROJECT_DIR$/app/routes/rentals/index.js" />
         <option value="$PROJECT_DIR$/app/routes/rentals.js" />
         <option value="$PROJECT_DIR$/app/templates/rentals/index.hbs" />
-        <option value="$PROJECT_DIR$/app/router.js" />
         <option value="$PROJECT_DIR$/app/templates/rentals.hbs" />
         <option value="$PROJECT_DIR$/app/controllers/rentals/index.js" />
+        <option value="$PROJECT_DIR$/mirage/config.js" />
+        <option value="$PROJECT_DIR$/app/router.js" />
+        <option value="$PROJECT_DIR$/app/routes/rentals/show.js" />
+        <option value="$PROJECT_DIR$/app/templates/rentals/show.hbs" />
       </list>
     </option>
   </component>
@@ -171,25 +163,6 @@
               <item name="super-rentals" type="b2602c69:ProjectViewProjectNode" />
               <item name="super-rentals" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="super-rentals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="super-rentals" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="super-rentals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="super-rentals" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="rentals" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="super-rentals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="super-rentals" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -216,14 +189,27 @@
               <item name="super-rentals" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="rentals" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="super-rentals" type="b2602c69:ProjectViewProjectNode" />
               <item name="super-rentals" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="super-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="super-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="mirage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="super-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="super-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="super-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="super-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -270,18 +256,18 @@
       <workItem from="1551265796972" duration="3935000" />
       <workItem from="1551272972273" duration="1557000" />
       <workItem from="1551279308409" duration="56000" />
-      <workItem from="1551344776535" duration="4014000" />
+      <workItem from="1551344776535" duration="4315000" />
+      <workItem from="1551349127142" duration="258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20882000" />
+    <option name="totallyTimeSpent" value="21441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1920" height="981" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -295,7 +281,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.23030303" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.38181818" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -345,18 +331,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-913" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mirage/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/services/map-element.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
@@ -403,13 +377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ember-cli-build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -468,16 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes/rentals/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -520,34 +477,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ember-cli-build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/rental-property-type.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="325">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/components/rental-listing.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="650">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/rental-listing.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/location-map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="350">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional-features.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/targets.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mirage/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/rentals/show.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/rentals/show.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
         </state>
       </provider>
     </entry>
